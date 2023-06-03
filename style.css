@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Sora:wght@200;300;500;700&display=swap');
+
+@font-face {
+    font-family: Headlines;
+    src: url(../fontes/Headlines-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-color: #451e61;
+}
+
+/*------------------------- header -------------------------*/
+header{
+    height: 47vw;
+}
+
+.header-style {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(150px);
+    width: 44vw;
+    height: 45vw;
+    position: absolute;
+    background-color: #fb8e6ae0;
+    border-radius: 50% 0% 0% 50%;
+    right: 0;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav section{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-right: 45px;
+    height: 50px;
+}
+
+header nav section p {
+    font-size: 1.1vw;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    padding: 5px;
+    border-bottom: #FB8E6A 2px solid;
+    cursor: pointer;
+}
+
+header .section-headear{
+    width: 60vw;
+    margin-left: 1%;
+    top: 7vw;
+    position: relative;
+    padding: 1.09vw;
+}
+
+header img {
+    position: absolute;
+    width: 37vw;
+    right: 4%;
+    top: 13%;
+}
+
+header .section-headear h1 {
+    font-size: 6.7vw;
+    line-height: 6vw;
+    letter-spacing: 2px;
+    font-family: Headlines;
+    color: #fafafa;
+}
+
+header .section-headear span{
+    color: #FB8E6A;
+    text-decoration: underline 3px;
+    text-underline-offset: 10px;
+}
+
+header .section-headear p {
+    font-size: 1.5vw;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 200;
+    line-height: 2.4vw;
+    margin-top: 2.5vw;
+    width: 45vw;
+    letter-spacing: 0.3px;
+}
+
+header .section-headear .btn-section-headear-buy{
+    width: 230px;
+    height: 52px;
+    background-color: #FB8E6A;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 1.4vw;
+    border-radius: 0px 25px 0px 25px;
+    border: none;
+    padding: 10px;
+    letter-spacing: 0.5px;
+}
+
+header .section-headear .btn-section-headear-create{
+    width: 230px;
+    height: 52px;
+    background-color: #00000000;
+    border: #FB8E6A solid 2px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-size: 1.4vw;
+    margin-top: 3vw;
+    margin-left: 1vw;
+    border-radius: 0px 25px 0px 25px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+}
+
+/*------------------------- Main -------------------------*/
+main{
+    position: relative;
+}
+
+/*------------------------- Container-P1 -------------------------*/
+main .container-p1{
+    background-color: #00000080;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    height: 7vw;
+    margin-top: 110px;
+}
+
+main .container-p1 section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .container-p1 section h2{
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 200;
+}
+
+main .container-p1 section p{
+    margin-top: 5px;
+    font-size: 1.2vw;
+    letter-spacing: 1px;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 500;
+}
+
+/*------------------------- Container-P2 -------------------------*/
+main .container-p2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    gap: 35px;
+    margin-top: 110px;
+    padding: 4vw;
+}
+
+main .container-p2 .content-text{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .container-p2 .content-text h1{
+    font-size: 2.5vw;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 800;
+}
+
+main .container-p2 .content-text span{
+    color: #FB8E6A;
+}
+
+main .container-p2 .content-text p{
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 200;
+    margin-top: 25px;
+    line-height: 2vw;
+}
+
+main .container-p2 .content-text .btn-content-text{
+    width: 230px;
+    height: 52px;
+    background-color: #FB8E6A;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 1.4vw;
+    border-radius: 0px 25px 0px 25px;
+    border: none;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    margin-top: 35px;
+}
+
+main .container-p2 .content-text-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+main .container-p2 .content-text-grid .container-first{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+main .container-p2 .content-text-grid .container-second{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+main .container-p2 .content-text-grid .content{
+    padding: 2vw;
+    border: #FB8E6A solid 2px;
+    border-radius: 0px 35px 0px 35px;
+    width: 18vw;
+}
+
+main .container-p2 .content-text-grid .content h2{
+    font-size: 1.3vw;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+main .container-p2 .content-text-grid .content p{
+    font-size: 1vw;
+    letter-spacing: 0.3px;
+    line-height: 1.7vw;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 200;
+    margin-top: 9px;
+}
+
+main .container-p2 .content-text-grid .content img{
+    width: 3.5vw;
+}
+
+/*------------------------- Container-P3 -------------------------*/
+main .container-p3{
+    margin-top: 110px;
+}
+
+main .container-p3 .content{
+    width: 273.2px;
+    background-color: #00000080;
+    padding: 1.7vw 1.7vw 2.5vw 1.7vw;
+    border-radius: 20px;
+}
+
+main .container-p3 h1{
+    font-size: 34.15px;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 800;
+    text-align: center;
+}
+
+main .container-p3 h1 span{
+    color: #FB8E6A;
+}
+
+main .container-p3 p{
+    font-size: 17.7px;
+    letter-spacing: 1px;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 200;
+    margin-top: 15px;
+    line-height: 2vw;
+    text-align: center;
+}
+
+main .container-p3 .content span{
+    color: #FB8E6A;
+}
+
+main .container-p3 section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1vw;
+    margin-top: 3vw;
+}
+
+main .container-p3 .content h2{
+    font-size: 1.7vw;
+    margin-top: 0.8vw;
+    letter-spacing: 2px;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+}
+
+main .container-p3 .content h4{
+    font-size: 0.8vw;
+    margin-top: 0.4vw;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 100;
+}
+
+main .container-p3 .content p{
+    font-size: 1.1vw;
+    letter-spacing: 0.3px;
+    margin-top: 1.7vw;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 8vw;
+    padding: 8px;
+    background-color: #00000060;
+    border-radius: 5px;
+    border: #FB8E6A solid 1px;
+
+}
+
+main .container-p3 .content img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+main .container-p3 .content .img-ethereum{
+    width: 22%;
+    margin-right: 6px;
+}
+
+main .container-p3 .content button{
+    width: 100%;
+    height: 52px;
+    background-color: #FB8E6A;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 1.4vw;
+    border-radius: 0px 25px 0px 25px;
+    border: none;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    margin-top: 2.8vw;
+}
+
+/*------------------------- Container-P4 -------------------------*/
+main .container-p4{
+    border-radius: 0px 110px 0px 110px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 75vw;
+    height: 37vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+main .container-p4 img{
+    margin-left: 50px;
+    margin-top: 6px;
+    filter: drop-shadow(0px 0px 20px #00000025);
+    position: relative;
+}
+
+main .container-p4 section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px 0px 0px;
+}
+
+main .container-p4 .wrapper{
+    background-color: #000000b0;
+    padding: 70px 25px;
+    border-radius: 10px;
+    border-radius: 0px 90px 0px 0px;
+}
+
+main .container-p4 section h1{
+    font-size: 2.8vw;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 800;
+}
+
+main .container-p4 section p{
+    font-size: 1.4vw;
+    letter-spacing: 1px;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 200;
+    margin-top: 15px;
+    line-height: 2.2vw;
+}
+
+main .container-p4 section .btn-content-text{
+    width: 270px;
+    height: 52px;
+    background-color: #FB8E6A;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 1.4vw;
+    border-radius: 0px 25px 0px 25px;
+    border: none;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    margin-top: 35px;
+}
+
+/*------------------------- Container-P5 -------------------------*/
+main .container-p5{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    padding: 20px;
+}
+
+main .container-p5 h1{
+    font-size: 2.5vw;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 800;
+}
+
+main .container-p5 h1 span{
+    color: #FB8E6A;
+}
+
+main .container-p5 p{
+    font-size: 1.1vw;
+    letter-spacing: 1px;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 200;
+    margin-top: 7px;
+    line-height: 1.8vw;
+    text-align: center;
+    width: 45vw;
+}
+
+main .container-p5 div{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+main .container-p5 div input{
+    width: 250px;
+    height: 38px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 0px 0px 0px 12px;
+}
+
+main .container-p5 div button{
+    width: 70px;
+    height: 38px;
+    background-color: #FB8E6A;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 1.1vw;
+    border: none;
+    border-radius: 0px 12px 0px 0px;
+}
+
+/*------------------------- Footer -------------------------*/
+footer{
+    margin-top: 80px;
+    width: auto;
+    background-color: #00000080;
+    padding: 20px 0px 0px 0px;
+}
+
+footer .container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer img{
+    width: 30px;
+    background-color: #000000;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+footer p{
+    font-size: 0.8vw;
+    font-family: 'Sora', sans-serif;
+    color: #fafafa;
+    font-weight: 200;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 25px;
+    padding: 10px 0px;
+    letter-spacing: 0.5px;
+}
